@@ -1,0 +1,100 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amiri', serif;
+    font-family: 'Lemonada', cursive;
+    
+}
+::-webkit-scrollbar {
+    width: 0px;
+
+}
+
+body{
+    
+    background: radial-gradient(50% 123.47% at 50% 50%, #e2e2e2 0%, #b2f4fa 100%),
+    linear-gradient(121.28deg, #669600 0%, #f15d5d 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+
+
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+
+.wrapper {
+    max-width: 750px;
+    min-height: 500px;
+    margin: auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 80px;
+    margin: auto
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7, -8px -8px 15px #fff
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555
+}
+
+
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff
+}
+
+
+
+.wrapper .sbtn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px
+}
+
+.wrapper .sbtn:hover {
+    background-color: #039BE5
+}
+
+.wrapper a {
+    
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #03A9F4
+}
+.wrapper a:hover {
+    color: #000000
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px
+    }
+}
